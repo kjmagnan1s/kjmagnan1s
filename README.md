@@ -6,12 +6,9 @@
 </p>
 
 <p align="center">
-  <a href="https://kevinjmagnan.com/"><img src="https://img.shields.io/badge/Website-kevinjmagnan.com-0a0a0a?style=flat&logo=safari&logoColor=white"></a>
   <a href="https://www.linkedin.com/in/kjmagnan1s/"><img src="https://img.shields.io/badge/LinkedIn-Kevin%20Magnan-0a66c2?style=flat&logo=linkedin&logoColor=white"></a>
   <a href="https://x.com/KevinMagnan"><img src="https://img.shields.io/badge/X-@KevinMagnan-0a0a0a?style=flat&logo=x&logoColor=white"></a>
   <a href="https://www.tiktok.com/@vibewithkevin"><img src="https://img.shields.io/badge/TikTok-@vibewithkevin-0a0a0a?style=flat&logo=tiktok&logoColor=white"></a>
-  <img src="https://img.shields.io/github/followers/kjmagnan1s?style=flat&logo=github&label=Followers&color=0a0a0a">
-  <img src="https://komarev.com/ghpvc/?username=kjmagnan1s&color=0a0a0a&label=Profile+views">
 </p>
 
 ---
