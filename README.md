@@ -1,11 +1,10 @@
-<h1 align="center">Kevin Magnan</h1>
+<h1 align="left">Kevin Magnan</h1>
 
-<p align="center">
-  <b>Building responsible AI applications and developer tools on Anthropic's Claude.</b><br>
-  AI engineer and founder. Former police officer, now working to put trustworthy AI into the hands of the public sector and the people doing the real work.
+<p align="left">
+  <b>Building responsible AI applications and developer tools.</b><br>
 </p>
 
-<p align="center">
+<p align="left">
   <a href="https://x.com/KevinMagnan"><img src="https://img.shields.io/badge/X-@KevinMagnan-0a0a0a?style=flat&logo=x&logoColor=white"></a>
   <a href="https://www.tiktok.com/@vibewithkevin"><img src="https://img.shields.io/badge/TikTok-@vibewithkevin-0a0a0a?style=flat&logo=tiktok&logoColor=white"></a>
 </p>
