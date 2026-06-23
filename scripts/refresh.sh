@@ -7,6 +7,9 @@ cd "$(dirname "$0")/.." || exit 1
 LOG="$HOME/.claude/profile-stats-refresh.log"
 {
   echo "=== $(date) ==="
+  # Adopt the latest remote first, so web edits to the header aren't clobbered
+  # and the push never hits a non-fast-forward. This clone is automation-only.
+  git fetch origin -q && git reset --hard origin/main -q
   python3 scripts/update_stats.py --push
   echo
 } >> "$LOG" 2>&1
