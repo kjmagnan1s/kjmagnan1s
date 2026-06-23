@@ -38,7 +38,6 @@ The last ~6 weeks of AI engineering, pulled straight from local Claude Code logs
 - **[AI Recess](https://joinairecess.com)**: community for AI builders, co-founded with two fellow creators.
 - **[AIppliance Manager](https://aippliancemanager.com)**: AI-assisted home appliance manager. Web plus native iOS (SwiftUI).
 - **[stardust](https://github.com/kjmagnan1s/stardust)**: local search and markdown export for your GitHub stars. Claude Code skill plus CLI.
-- **[claude-skills](https://github.com/kjmagnan1s/claude-skills)**: portable Claude Code skills I reuse across projects and machines.
 - **[claude-md-creator](https://github.com/kjmagnan1s/claude-md-creator)**: generate and audit CLAUDE.md project instruction files.
 
 ---
