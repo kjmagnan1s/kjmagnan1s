@@ -6,7 +6,6 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/kjmagnan1s/"><img src="https://img.shields.io/badge/LinkedIn-Kevin%20Magnan-0a66c2?style=flat&logo=linkedin&logoColor=white"></a>
   <a href="https://x.com/KevinMagnan"><img src="https://img.shields.io/badge/X-@KevinMagnan-0a0a0a?style=flat&logo=x&logoColor=white"></a>
   <a href="https://www.tiktok.com/@vibewithkevin"><img src="https://img.shields.io/badge/TikTok-@vibewithkevin-0a0a0a?style=flat&logo=tiktok&logoColor=white"></a>
 </p>
