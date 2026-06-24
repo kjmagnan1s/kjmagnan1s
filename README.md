@@ -42,6 +42,7 @@ The last ~6 weeks of AI engineering, pulled straight from local Claude Code logs
 - **[anti-slop](https://github.com/kjmagnan1s/anti-slop)**: detect, rewrite, and ingest AI slop, with a protect-list seam so it never flattens your voice.
 - **[voice-dna-builder](https://github.com/kjmagnan1s/voice-dna-builder)**: build a personal voice spec and protect-list from your own writing samples. Pairs with anti-slop.
 - **[slides](https://github.com/kjmagnan1s/slides)**: turn an outline into a self-contained, animated HTML slide deck. 16 formats, presenter mode, PDF export.
+- **[superframes](https://github.com/kjmagnan1s/superframes)**
 
 ---
 
