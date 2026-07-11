@@ -44,6 +44,7 @@ The last ~6 weeks of AI engineering, pulled straight from local Claude Code logs
 - **[slides](https://github.com/kjmagnan1s/slides)**: turn an outline into a self-contained, animated HTML slide deck. 16 formats, presenter mode, PDF export.
 - **[superframes](https://github.com/kjmagnan1s/superframes)**: pre-production workflow for HyperFrames videos (HeyGen's AI video engine), from brief to locked storyboard. Claude Code skill.
 - **[frame-md](https://github.com/kjmagnan1s/frame-md)**: local wrapper for HyperFrames' frame.md system. Turn a design.md into a reusable video-native design system. Claude Code skill.
+- **[unifi-agent](https://github.com/kjmagnan1s/unifi-agent)**: Safety-first agentic command & control for UniFi networks: hybrid API client, stdio MCP server, and CLI for local management with TLS pinning, blast-radius guards, and diagnostic loops.
 
 ---
 
