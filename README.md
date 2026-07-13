@@ -32,20 +32,27 @@ The last ~6 weeks of AI engineering, pulled straight from local Claude Code logs
 
 ---
 
+## Skills & tools
+
+<!-- newest first; switching to star order when they take off -->
+
+- **[trim-hero](https://github.com/kjmagnan1s/trim-hero)**: Claude Code skill that profiles your real API payload, ranks what each turn pays for, and trims the bloat behind an approval gate.
+- **[unifi-agent](https://github.com/kjmagnan1s/unifi-agent)**: Safety-first agentic command & control for UniFi networks: hybrid API client, stdio MCP server, and CLI for local management with TLS pinning, blast-radius guards, and diagnostic loops.
+- **[frame-md](https://github.com/kjmagnan1s/frame-md)**: local wrapper for HyperFrames' frame.md system. Turn a design.md into a reusable video-native design system. Claude Code skill.
+- **[superframes](https://github.com/kjmagnan1s/superframes)**: pre-production workflow for HyperFrames videos (HeyGen's AI video engine), from brief to locked storyboard. Claude Code skill.
+- **[slides](https://github.com/kjmagnan1s/slides)**: turn an outline into a self-contained, animated HTML slide deck. 16 formats, presenter mode, PDF export.
+- **[voice-dna-builder](https://github.com/kjmagnan1s/voice-dna-builder)**: build a personal voice spec and protect-list from your own writing samples. Pairs with anti-slop.
+- **[anti-slop](https://github.com/kjmagnan1s/anti-slop)**: detect, rewrite, and ingest AI slop, with a protect-list seam so it never flattens your voice.
+- **[stardust](https://github.com/kjmagnan1s/stardust)**: local search and markdown export for your GitHub stars. Claude Code skill plus CLI.
+- **[claude-md-creator](https://github.com/kjmagnan1s/claude-md-creator)**: generate and audit CLAUDE.md project instruction files.
+
+---
+
 ## Building
 
 - **[AIpplied Labs](https://aippliedlabs.com)**: my AI engineering studio, where everything else gets built.
 - **[AI Recess](https://joinairecess.com)**: community for AI builders, co-founded with two fellow creators.
 - **[AIppliance Manager](https://aippliancemanager.com)**: AI-assisted home appliance manager. Web plus native iOS (SwiftUI).
-- **[stardust](https://github.com/kjmagnan1s/stardust)**: local search and markdown export for your GitHub stars. Claude Code skill plus CLI.
-- **[claude-md-creator](https://github.com/kjmagnan1s/claude-md-creator)**: generate and audit CLAUDE.md project instruction files.
-- **[anti-slop](https://github.com/kjmagnan1s/anti-slop)**: detect, rewrite, and ingest AI slop, with a protect-list seam so it never flattens your voice.
-- **[voice-dna-builder](https://github.com/kjmagnan1s/voice-dna-builder)**: build a personal voice spec and protect-list from your own writing samples. Pairs with anti-slop.
-- **[slides](https://github.com/kjmagnan1s/slides)**: turn an outline into a self-contained, animated HTML slide deck. 16 formats, presenter mode, PDF export.
-- **[superframes](https://github.com/kjmagnan1s/superframes)**: pre-production workflow for HyperFrames videos (HeyGen's AI video engine), from brief to locked storyboard. Claude Code skill.
-- **[frame-md](https://github.com/kjmagnan1s/frame-md)**: local wrapper for HyperFrames' frame.md system. Turn a design.md into a reusable video-native design system. Claude Code skill.
-- **[unifi-agent](https://github.com/kjmagnan1s/unifi-agent)**: Safety-first agentic command & control for UniFi networks: hybrid API client, stdio MCP server, and CLI for local management with TLS pinning, blast-radius guards, and diagnostic loops.
-- **[trim-hero](https://github.com/kjmagnan1s/trim-hero)**: Claude Code skill that profiles your real API payload, ranks what each turn pays for, and trims the bloat behind an approval gate.
 
 ---
 
