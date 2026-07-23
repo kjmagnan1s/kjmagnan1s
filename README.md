@@ -17,16 +17,16 @@
 
 The last ~6 weeks of AI engineering, pulled straight from local Claude Code logs and GitHub. A running total from here.
 
-| Last 6 weeks &nbsp;·&nbsp; May 10 – Jun 23, 2026 | |
+| Last 6 weeks &nbsp;·&nbsp; Jun 10 – Jul 23, 2026 | |
 | :-- | --: |
-| Tokens processed | **8.97B** |
-| Commits | **158** |
-| Pull requests (opened / merged) | **13 / 6** |
-| Lines added | **+107K** |
-| Repos active | **21** |
+| Tokens processed | **10.5B** |
+| Commits | **167** |
+| Pull requests (opened / merged) | **37 / 27** |
+| Lines added | **+200K** |
+| Repos active | **26** |
 | Production apps shipped or in flight | **7+** |
 
-88.3% context cache reuse &nbsp;·&nbsp; 94% on frontier Opus models &nbsp;·&nbsp; 44,672 agent turns.
+93.9% context cache reuse &nbsp;·&nbsp; 64% on frontier Opus models &nbsp;·&nbsp; 56,815 agent turns.
 
 <!-- STATS:END -->
 

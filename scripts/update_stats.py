@@ -252,7 +252,7 @@ def main():
 
     if "--push" in sys.argv:
         subprocess.run(["git", "-C", REPO_ROOT, "add", "README.md"], check=True)
-        msg = f"chore: refresh AI-coding stats ({today.isoformat()})"
+        msg = f"chore: refresh AI-coding stats ({date.today().isoformat()})"
         r = subprocess.run(["git", "-C", REPO_ROOT, "commit", "-m", msg])
         if r.returncode == 0:
             subprocess.run(["git", "-C", REPO_ROOT, "push"], check=True)
