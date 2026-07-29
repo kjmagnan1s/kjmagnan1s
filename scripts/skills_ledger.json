@@ -1,0 +1,156 @@
+{
+  "anti-slop": {
+    "first_seen": "2026-07-03",
+    "authored": true
+  },
+  "claude-md-creator": {
+    "first_seen": "2026-06-23",
+    "authored": true,
+    "published_only": true,
+    "date_basis": "last_edited"
+  },
+  "collage-broll-explainers": {
+    "first_seen": "2026-07-20",
+    "authored": true
+  },
+  "faceless-explainer": {
+    "first_seen": "2026-07-28",
+    "authored": false
+  },
+  "frame-md": {
+    "first_seen": "2026-07-20",
+    "authored": true
+  },
+  "general-video": {
+    "first_seen": "2026-07-28",
+    "authored": false
+  },
+  "here-now": {
+    "first_seen": "2026-03-20",
+    "authored": false
+  },
+  "hyperframes": {
+    "first_seen": "2026-07-24",
+    "authored": false
+  },
+  "hyperframes-animation": {
+    "first_seen": "2026-07-22",
+    "authored": false
+  },
+  "hyperframes-cli": {
+    "first_seen": "2026-07-28",
+    "authored": false
+  },
+  "hyperframes-core": {
+    "first_seen": "2026-07-24",
+    "authored": false
+  },
+  "hyperframes-creative": {
+    "first_seen": "2026-07-24",
+    "authored": false
+  },
+  "hyperframes-keyframes": {
+    "first_seen": "2026-07-16",
+    "authored": false
+  },
+  "hyperframes-registry": {
+    "first_seen": "2026-07-16",
+    "authored": false
+  },
+  "linkedin": {
+    "first_seen": "2026-07-26",
+    "authored": true
+  },
+  "media-use": {
+    "first_seen": "2026-07-26",
+    "authored": false
+  },
+  "motion-graphics": {
+    "first_seen": "2026-07-28",
+    "authored": false
+  },
+  "naperthrill-editor-review": {
+    "first_seen": "2026-07-24",
+    "authored": true
+  },
+  "naperthrill-teasers": {
+    "first_seen": "2026-07-24",
+    "authored": true
+  },
+  "no-mistakes": {
+    "first_seen": "2026-07-16",
+    "authored": false
+  },
+  "obsidian-cli": {
+    "first_seen": "2026-04-12",
+    "authored": false
+  },
+  "pp-granola": {
+    "first_seen": "2026-06-30",
+    "authored": false
+  },
+  "pp-robinhood-agentic": {
+    "first_seen": "2026-07-29",
+    "authored": false
+  },
+  "product-launch-video": {
+    "first_seen": "2026-07-28",
+    "authored": false
+  },
+  "repo-carousel": {
+    "first_seen": "2026-07-21",
+    "authored": true
+  },
+  "shelf": {
+    "first_seen": "2026-07-24",
+    "authored": true
+  },
+  "ship-naperthrill-issue": {
+    "first_seen": "2026-07-24",
+    "authored": true
+  },
+  "skills-dashboard-agent": {
+    "first_seen": "2026-07-13",
+    "authored": true
+  },
+  "slides": {
+    "first_seen": "2026-06-23",
+    "authored": true,
+    "published_only": true,
+    "date_basis": "last_edited"
+  },
+  "stardust": {
+    "first_seen": "2026-06-23",
+    "authored": true,
+    "published_only": true,
+    "date_basis": "last_edited"
+  },
+  "superframes": {
+    "first_seen": "2026-07-22",
+    "authored": true
+  },
+  "tiktok-script": {
+    "first_seen": "2026-07-27",
+    "authored": true
+  },
+  "trim-hero": {
+    "first_seen": "2026-07-23",
+    "authored": true,
+    "published_only": true,
+    "date_basis": "last_edited"
+  },
+  "tweet": {
+    "first_seen": "2026-07-23",
+    "authored": true
+  },
+  "video-use": {
+    "first_seen": "2026-07-26",
+    "authored": true
+  },
+  "voice-dna-builder": {
+    "first_seen": "2026-06-23",
+    "authored": true,
+    "published_only": true,
+    "date_basis": "last_edited"
+  }
+}

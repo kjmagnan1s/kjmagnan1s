@@ -72,13 +72,25 @@ def read_tokens():
     tot = {f: 0 for f in fields}
     by_model = {}
     msgs = 0
+    agents = workflows = subagents = 0
     dmin = dmax = None
     for path in glob.glob(os.path.join(LOGS, "**", "*.jsonl"), recursive=True):
+        # Workflow subagents write agent-*.jsonl under a wf_* run dir. Agent-tool
+        # subagents write the same filename elsewhere, so match on the wf_ path or
+        # the workflow count absorbs the direct ones (877 vs 627).
+        if os.path.basename(path).startswith("agent-"):
+            if "/wf_" in path:
+                subagents += 1
+            # keep reading: subagent transcripts carry real token usage
         try:
             with open(path, errors="ignore") as fh:
                 for line in fh:
                     if '"usage"' not in line:
                         continue
+                    if '"name":"Agent"' in line:
+                        agents += line.count('"name":"Agent"')
+                    if '"name":"Workflow"' in line:
+                        workflows += line.count('"name":"Workflow"')
                     try:
                         obj = json.loads(line)
                     except ValueError:
@@ -104,6 +116,7 @@ def read_tokens():
             continue
     grand = sum(tot.values())
     opus = sum(v for k, v in by_model.items() if "opus" in k.lower())
+    fable = sum(v for k, v in by_model.items() if "fable" in k.lower())
     return {
         "input": tot["input_tokens"],
         "output": tot["output_tokens"],
@@ -113,11 +126,63 @@ def read_tokens():
         "io": tot["input_tokens"] + tot["output_tokens"],
         "msgs": msgs,
         "opus_share": pct(opus, grand),
+        "fable_share": pct(fable, grand),
+        "frontier_share": pct(opus + fable, grand),
         "reuse": pct(tot["cache_read_input_tokens"], grand),
         "out_per_turn": (tot["output_tokens"] / msgs) if msgs else 0,
         "dmin": dmin,
         "dmax": dmax,
+        "agents": agents,
+        "workflows": workflows,
+        "subagents": subagents,
     }
+
+
+def read_agents(tk, start, end):
+    """Workflow subagents + the authored-skill count.
+
+    Every tally rides along in read_tokens' single pass. Re-walking the corpus
+    here (or globbing all of ~/.claude for agent-*.jsonl) added ~6 minutes for
+    information that pass already had.
+    """
+    return {"agents": tk["agents"], "subagents": tk["subagents"],
+            "workflows": tk["workflows"], "skills": read_skills(start, end)}
+
+
+def read_skills(start, end):
+    """Authored skills whose date falls inside the telemetry window.
+
+    Skills living in ~/.claude/skills are dated by st_birthtime. The ones that
+    only exist as published repos have no local file to birth-date, so they
+    carry their last-edited date instead (date_basis in the ledger says which).
+
+    New skills landing in the global folder default to authored=true and are
+    announced on stderr; flip the flag in skills_ledger.json if an install
+    slips in. There is no provenance metadata on disk to decide it for us.
+    """
+    ledger_path = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                               "skills_ledger.json")
+    try:
+        with open(ledger_path) as fh:
+            ledger = json.load(fh)
+    except (OSError, ValueError):
+        return None
+    added = []
+    for p in glob.glob(os.path.join(HOME, ".claude", "skills", "*", "SKILL.md")):
+        name = os.path.basename(os.path.dirname(p))
+        if name in ledger:
+            continue
+        first = datetime.fromtimestamp(os.stat(p).st_birthtime).strftime("%Y-%m-%d")
+        ledger[name] = {"first_seen": first, "authored": True,
+                        "date_basis": "birthtime"}
+        added.append(name)
+    if added:
+        with open(ledger_path, "w") as fh:
+            json.dump(dict(sorted(ledger.items())), fh, indent=2)
+            fh.write("\n")
+        print("new skills tracked (assumed authored): " + ", ".join(added), file=sys.stderr)
+    return sum(1 for v in ledger.values()
+               if v.get("authored") and start <= v.get("first_seen", "") <= end)
 
 
 def read_github(start, end):
@@ -187,7 +252,7 @@ def month_day(iso):
     return d.strftime("%b ") + str(d.day)
 
 
-def render(tk, gh, loc, old):
+def render(tk, gh, loc, ag, old):
     weeks = 6
     if tk["dmin"] and tk["dmax"]:
         weeks = max(1, round((datetime.strptime(tk["dmax"], "%Y-%m-%d") -
@@ -206,6 +271,13 @@ def render(tk, gh, loc, old):
     def loc_s():
         return f"+{human(loc)}" if loc else (previous("Lines added", old) or "—")
 
+    def agents():
+        # split reads in the label, matching the pull-requests row
+        return f"{ag['agents']:,} / {ag['subagents']:,}"
+
+    def skills():
+        return f"{ag['skills']}" if ag.get("skills") is not None else (previous("skills written", old) or "—")
+
     def repos():
         return f"{gh['repos_active']}" if gh.get("repos_active") is not None else (previous("Repos active", old) or "—")
 
@@ -221,8 +293,11 @@ The last ~{weeks} weeks of AI engineering, pulled straight from local Claude Cod
 | Lines added | **{loc_s()}** |
 | Repos active | **{repos()}** |
 | Production apps shipped or in flight | **{APPS_IN_FLIGHT}+** |
+| Agents spawned (direct / in workflows) | **{agents()}** |
+| Dynamic workflows run | **{ag['workflows']:,}** |
+| Claude Code skills written | **{skills()}** |
 
-{tk['reuse']}% context cache reuse &nbsp;·&nbsp; {tk['opus_share']:.0f}% on frontier Opus models &nbsp;·&nbsp; {tk['msgs']:,} agent turns.
+{tk['reuse']}% context cache reuse &nbsp;·&nbsp; {tk['frontier_share']:.0f}% on frontier models ({tk['opus_share']:.0f}% Opus, {tk['fable_share']:.0f}% Fable) &nbsp;·&nbsp; {tk['msgs']:,} agent turns.
 
 <!-- STATS:END -->"""
 
@@ -239,7 +314,8 @@ def main():
     end = tk["dmax"] or date.today().isoformat()
     gh = read_github(start, end)
     loc = read_loc(start, end)
-    block = render(tk, gh, loc, old_block)
+    ag = read_agents(tk, start, end)
+    block = render(tk, gh, loc, ag, old_block)
 
     new_text = text.replace(old_block, block)
     if new_text == text:
