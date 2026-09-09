@@ -329,7 +329,11 @@ def main():
           f"window {tk['dmin']}..{tk['dmax']}")
 
     if "--push" in sys.argv:
-        subprocess.run(["git", "-C", REPO_ROOT, "add", "README.md"], check=True)
+        # The ledger must be committed too: refresh.sh hard-resets to origin,
+        # so an uncommitted authored=false correction is wiped before the next
+        # run and the skill silently re-defaults to authored.
+        subprocess.run(["git", "-C", REPO_ROOT, "add", "README.md",
+                        "scripts/skills_ledger.json"], check=True)
         msg = f"chore: refresh AI-coding stats ({date.today().isoformat()})"
         r = subprocess.run(["git", "-C", REPO_ROOT, "commit", "-m", msg])
         if r.returncode == 0:
