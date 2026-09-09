@@ -21,7 +21,7 @@ The last ~5 weeks, pulled straight from local Claude Code logs and GitHub. I del
 | Last 5 weeks &nbsp;·&nbsp; Aug 8 – Sep 9, 2026 | |
 | :-- | --: |
 | Tokens processed | **13.46B** |
-| Commits | **129** |
+| Commits | **130** |
 | Pull requests (opened / merged) | **45 / 39** |
 | Lines added | **+100K** |
 | Repos active | **8** |
@@ -30,7 +30,7 @@ The last ~5 weeks, pulled straight from local Claude Code logs and GitHub. I del
 | Dynamic workflows run | **19** |
 | Claude Code skills written | **13** |
 
-94.5% context cache reuse &nbsp;·&nbsp; 99% on frontier models (60% Opus, 38% Fable) &nbsp;·&nbsp; 79,803 agent turns.
+94.5% context cache reuse &nbsp;·&nbsp; 99% on frontier models (60% Opus, 38% Fable) &nbsp;·&nbsp; 79,810 agent turns.
 
 386 agents ran, 128 of them inside 19 dynamic workflows. Designing that is the actual work.
 
