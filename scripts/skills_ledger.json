@@ -1,7 +1,22 @@
 {
+  "agent-reach": {
+    "first_seen": "2026-09-07",
+    "authored": true,
+    "date_basis": "birthtime"
+  },
   "anti-slop": {
     "first_seen": "2026-07-03",
     "authored": true
+  },
+  "blotato": {
+    "first_seen": "2026-08-14",
+    "authored": true,
+    "date_basis": "birthtime"
+  },
+  "brandkit": {
+    "first_seen": "2026-08-10",
+    "authored": false,
+    "date_basis": "birthtime"
   },
   "claude-md-creator": {
     "first_seen": "2026-06-23",
@@ -9,25 +24,115 @@
     "published_only": true,
     "date_basis": "last_edited"
   },
+  "clone-site": {
+    "first_seen": "2026-09-04",
+    "authored": true,
+    "date_basis": "birthtime"
+  },
   "collage-broll-explainers": {
     "first_seen": "2026-07-20",
     "authored": true
+  },
+  "configuring-experiment-analytics": {
+    "first_seen": "2026-09-04",
+    "authored": false,
+    "date_basis": "birthtime"
+  },
+  "configuring-experiment-rollout": {
+    "first_seen": "2026-09-04",
+    "authored": false,
+    "date_basis": "birthtime"
+  },
+  "constraint-first-product-design": {
+    "first_seen": "2026-08-27",
+    "authored": true,
+    "date_basis": "birthtime"
+  },
+  "creating-experiments": {
+    "first_seen": "2026-08-28",
+    "authored": false,
+    "date_basis": "birthtime"
+  },
+  "daily-bugle": {
+    "first_seen": "2026-09-07",
+    "authored": true,
+    "date_basis": "birthtime"
+  },
+  "design-taste-frontend": {
+    "first_seen": "2026-09-04",
+    "authored": false,
+    "date_basis": "birthtime"
+  },
+  "design-taste-frontend-v1": {
+    "first_seen": "2026-09-04",
+    "authored": false,
+    "date_basis": "birthtime"
+  },
+  "diagnosing-experiment-results": {
+    "first_seen": "2026-08-28",
+    "authored": false,
+    "date_basis": "birthtime"
+  },
+  "dom-clone": {
+    "first_seen": "2026-08-24",
+    "authored": true,
+    "date_basis": "birthtime"
   },
   "faceless-explainer": {
     "first_seen": "2026-07-28",
     "authored": false
   },
+  "feature-flags-api": {
+    "first_seen": "2026-08-28",
+    "authored": false,
+    "date_basis": "birthtime"
+  },
+  "feature-flags-web": {
+    "first_seen": "2026-08-28",
+    "authored": false,
+    "date_basis": "birthtime"
+  },
+  "find-logos": {
+    "first_seen": "2026-08-16",
+    "authored": true,
+    "date_basis": "birthtime"
+  },
   "frame-md": {
     "first_seen": "2026-07-20",
     "authored": true
+  },
+  "gdoc-surgical-edit": {
+    "first_seen": "2026-09-02",
+    "authored": true,
+    "date_basis": "birthtime"
   },
   "general-video": {
     "first_seen": "2026-07-28",
     "authored": false
   },
+  "google-devdocs-style": {
+    "first_seen": "2026-08-18",
+    "authored": true,
+    "date_basis": "birthtime"
+  },
+  "gpt-taste": {
+    "first_seen": "2026-09-04",
+    "authored": false,
+    "date_basis": "birthtime"
+  },
+  "gumroad": {
+    "first_seen": "2026-09-04",
+    "authored": false,
+    "date_basis": "birthtime"
+  },
   "here-now": {
     "first_seen": "2026-03-20",
     "authored": false
+  },
+  "high-end-visual-design": {
+    "first_seen": "2026-09-04",
+    "authored": false,
+    "date_basis": "birthtime"
   },
   "hyperframes": {
     "first_seen": "2026-07-24",
@@ -36,6 +141,11 @@
   "hyperframes-animation": {
     "first_seen": "2026-07-22",
     "authored": false
+  },
+  "hyperframes-audio": {
+    "first_seen": "2026-08-25",
+    "authored": false,
+    "date_basis": "birthtime"
   },
   "hyperframes-cli": {
     "first_seen": "2026-07-28",
@@ -57,13 +167,68 @@
     "first_seen": "2026-07-16",
     "authored": false
   },
+  "image-to-code": {
+    "first_seen": "2026-09-04",
+    "authored": false,
+    "date_basis": "birthtime"
+  },
+  "imagegen-frontend-mobile": {
+    "first_seen": "2026-09-04",
+    "authored": false,
+    "date_basis": "birthtime"
+  },
+  "imagegen-frontend-web": {
+    "first_seen": "2026-09-04",
+    "authored": false,
+    "date_basis": "birthtime"
+  },
+  "impeccable": {
+    "first_seen": "2026-09-04",
+    "authored": false,
+    "date_basis": "birthtime"
+  },
+  "industrial-brutalist-ui": {
+    "first_seen": "2026-08-10",
+    "authored": false,
+    "date_basis": "birthtime"
+  },
+  "instrument-feature-flags": {
+    "first_seen": "2026-08-28",
+    "authored": false,
+    "date_basis": "birthtime"
+  },
+  "instrument-product-analytics": {
+    "first_seen": "2026-09-04",
+    "authored": false,
+    "date_basis": "birthtime"
+  },
+  "integration-javascript_web": {
+    "first_seen": "2026-09-04",
+    "authored": false,
+    "date_basis": "birthtime"
+  },
+  "investigate-metric": {
+    "first_seen": "2026-08-28",
+    "authored": false,
+    "date_basis": "birthtime"
+  },
   "linkedin": {
     "first_seen": "2026-07-26",
     "authored": true
   },
+  "managing-experiment-lifecycle": {
+    "first_seen": "2026-08-28",
+    "authored": false,
+    "date_basis": "birthtime"
+  },
   "media-use": {
     "first_seen": "2026-07-26",
     "authored": false
+  },
+  "minimalist-ui": {
+    "first_seen": "2026-09-04",
+    "authored": false,
+    "date_basis": "birthtime"
   },
   "motion-graphics": {
     "first_seen": "2026-07-28",
@@ -81,6 +246,11 @@
     "first_seen": "2026-07-16",
     "authored": false
   },
+  "notion-cli": {
+    "first_seen": "2026-09-03",
+    "authored": false,
+    "date_basis": "birthtime"
+  },
   "obsidian-cli": {
     "first_seen": "2026-04-12",
     "authored": false
@@ -88,6 +258,11 @@
   "pp-granola": {
     "first_seen": "2026-06-30",
     "authored": false
+  },
+  "pp-posthog": {
+    "first_seen": "2026-09-04",
+    "authored": false,
+    "date_basis": "birthtime"
   },
   "pp-robinhood-agentic": {
     "first_seen": "2026-07-29",
@@ -97,13 +272,38 @@
     "first_seen": "2026-07-28",
     "authored": false
   },
+  "querying-posthog-data": {
+    "first_seen": "2026-09-04",
+    "authored": false,
+    "date_basis": "birthtime"
+  },
+  "redesign-existing-projects": {
+    "first_seen": "2026-08-10",
+    "authored": false,
+    "date_basis": "birthtime"
+  },
+  "remix-site": {
+    "first_seen": "2026-09-04",
+    "authored": true,
+    "date_basis": "birthtime"
+  },
   "repo-carousel": {
     "first_seen": "2026-07-21",
     "authored": true
   },
+  "shader-extract": {
+    "first_seen": "2026-08-24",
+    "authored": true,
+    "date_basis": "birthtime"
+  },
   "shelf": {
     "first_seen": "2026-07-24",
     "authored": true
+  },
+  "ship-gate": {
+    "first_seen": "2026-09-06",
+    "authored": true,
+    "date_basis": "birthtime"
   },
   "ship-naperthrill-issue": {
     "first_seen": "2026-07-24",
@@ -125,6 +325,16 @@
     "published_only": true,
     "date_basis": "last_edited"
   },
+  "stitch-design-taste": {
+    "first_seen": "2026-09-04",
+    "authored": false,
+    "date_basis": "birthtime"
+  },
+  "supadata": {
+    "first_seen": "2026-09-04",
+    "authored": false,
+    "date_basis": "birthtime"
+  },
   "superframes": {
     "first_seen": "2026-07-22",
     "authored": true
@@ -132,6 +342,11 @@
   "tiktok-script": {
     "first_seen": "2026-07-27",
     "authored": true
+  },
+  "tools-and-features-hogql": {
+    "first_seen": "2026-08-28",
+    "authored": false,
+    "date_basis": "birthtime"
   },
   "trim-hero": {
     "first_seen": "2026-07-23",
@@ -152,5 +367,10 @@
     "authored": true,
     "published_only": true,
     "date_basis": "last_edited"
+  },
+  "website-resources": {
+    "first_seen": "2026-08-10",
+    "authored": true,
+    "date_basis": "birthtime"
   }
 }
