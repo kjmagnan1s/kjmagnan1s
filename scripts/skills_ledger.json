@@ -24,6 +24,11 @@
     "published_only": true,
     "date_basis": "last_edited"
   },
+  "claude-terminal-kit": {
+    "first_seen": "2026-09-10",
+    "authored": true,
+    "date_basis": "birthtime"
+  },
   "clone-site": {
     "first_seen": "2026-09-04",
     "authored": true,
@@ -338,6 +343,11 @@
   "superframes": {
     "first_seen": "2026-07-22",
     "authored": true
+  },
+  "taste-vault": {
+    "first_seen": "2026-09-10",
+    "authored": true,
+    "date_basis": "birthtime"
   },
   "tiktok-script": {
     "first_seen": "2026-07-27",
