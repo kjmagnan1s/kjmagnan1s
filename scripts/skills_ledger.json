@@ -18,6 +18,11 @@
     "authored": false,
     "date_basis": "birthtime"
   },
+  "build-harness": {
+    "first_seen": "2026-09-15",
+    "authored": true,
+    "date_basis": "birthtime"
+  },
   "claude-md-creator": {
     "first_seen": "2026-06-23",
     "authored": true,
@@ -133,6 +138,46 @@
   "here-now": {
     "first_seen": "2026-03-20",
     "authored": false
+  },
+  "higgsfield-brandkit": {
+    "first_seen": "2026-09-17",
+    "authored": true,
+    "date_basis": "birthtime"
+  },
+  "higgsfield-generate": {
+    "first_seen": "2026-09-17",
+    "authored": true,
+    "date_basis": "birthtime"
+  },
+  "higgsfield-marketplace-cards": {
+    "first_seen": "2026-09-17",
+    "authored": true,
+    "date_basis": "birthtime"
+  },
+  "higgsfield-product-photoshoot": {
+    "first_seen": "2026-09-17",
+    "authored": true,
+    "date_basis": "birthtime"
+  },
+  "higgsfield-soul-id": {
+    "first_seen": "2026-09-17",
+    "authored": true,
+    "date_basis": "birthtime"
+  },
+  "higgsfield-video-explainer": {
+    "first_seen": "2026-09-17",
+    "authored": true,
+    "date_basis": "birthtime"
+  },
+  "higgsfield-websites": {
+    "first_seen": "2026-09-17",
+    "authored": true,
+    "date_basis": "birthtime"
+  },
+  "higgsfield-youtube-thumbnail": {
+    "first_seen": "2026-09-17",
+    "authored": true,
+    "date_basis": "birthtime"
   },
   "high-end-visual-design": {
     "first_seen": "2026-09-04",
