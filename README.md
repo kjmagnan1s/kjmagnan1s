@@ -59,6 +59,7 @@ The last ~6 weeks, pulled straight from local Claude Code logs and GitHub. I del
 - **[AIpplied Labs](https://aippliedlabs.com)**: my AI engineering studio, where everything else gets built.
 - **[AI Recess](https://joinairecess.com)**: community for AI builders, co-founded with two fellow creators.
 - **[AIppliance Manager](https://aippliancemanager.com)**: AI-assisted home appliance manager. Web plus native iOS (SwiftUI).
+- **[karnak](https://github.com/kjmagnan1s/karnak)**: Jev picks Claude Code's reasoning effort before every step. Low for routine, high when recovering.
 
 ---
 
