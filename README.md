@@ -18,21 +18,21 @@
 
 The last ~6 weeks, pulled straight from local Claude Code logs and GitHub. I delegated most of this: I set the goal and the bar, the agents did the rest. A running total from here.
 
-| Last 6 weeks &nbsp;·&nbsp; Aug 11 – Sep 21, 2026 | |
+| Last 6 weeks &nbsp;·&nbsp; Aug 14 – Sep 28, 2026 | |
 | :-- | --: |
-| Tokens processed | **18.63B** |
-| Commits | **442** |
-| Pull requests (opened / merged) | **68 / 62** |
-| Lines added | **+126K** |
-| Repos active | **9** |
+| Tokens processed | **22.01B** |
+| Commits | **633** |
+| Pull requests (opened / merged) | **99 / 93** |
+| Lines added | **+196K** |
+| Repos active | **14** |
 | Production apps shipped or in flight | **7+** |
-| Agents spawned (direct / in workflows) | **326 / 182** |
-| Dynamic workflows run | **27** |
-| Claude Code skills written | **23** |
+| Agents spawned (direct / in workflows) | **508 / 170** |
+| Dynamic workflows run | **26** |
+| Claude Code skills written | **25** |
 
-94.5% context cache reuse &nbsp;·&nbsp; 98% on frontier models (70% Opus, 28% Fable) &nbsp;·&nbsp; 109,082 agent turns.
+94.9% context cache reuse &nbsp;·&nbsp; 98% on frontier models (76% Opus, 22% Fable) &nbsp;·&nbsp; 163,318 agent turns.
 
-508 agents ran, 182 of them inside 27 dynamic workflows. Designing that is the actual work.
+678 agents ran, 170 of them inside 26 dynamic workflows. Designing that is the actual work.
 
 <!-- STATS:END -->
 
