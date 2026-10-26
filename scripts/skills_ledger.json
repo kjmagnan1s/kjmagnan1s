@@ -39,6 +39,11 @@
     "authored": true,
     "date_basis": "birthtime"
   },
+  "clawd-terminal-kit": {
+    "first_seen": "2026-10-08",
+    "authored": true,
+    "date_basis": "birthtime"
+  },
   "clone-site": {
     "first_seen": "2026-09-04",
     "authored": true,
@@ -75,6 +80,11 @@
   },
   "daily-bugle": {
     "first_seen": "2026-09-07",
+    "authored": true,
+    "date_basis": "birthtime"
+  },
+  "deep-analysis": {
+    "first_seen": "2026-10-21",
     "authored": true,
     "date_basis": "birthtime"
   },
@@ -313,6 +323,11 @@
     "first_seen": "2026-07-24",
     "authored": true
   },
+  "naperthrill-scout": {
+    "first_seen": "2026-10-21",
+    "authored": true,
+    "date_basis": "birthtime"
+  },
   "naperthrill-teasers": {
     "first_seen": "2026-07-24",
     "authored": true
@@ -366,6 +381,16 @@
     "first_seen": "2026-07-21",
     "authored": true
   },
+  "repo-carousel-monday": {
+    "first_seen": "2026-10-21",
+    "authored": true,
+    "date_basis": "birthtime"
+  },
+  "retro": {
+    "first_seen": "2026-10-21",
+    "authored": true,
+    "date_basis": "birthtime"
+  },
   "shader-extract": {
     "first_seen": "2026-08-24",
     "authored": true,
@@ -387,6 +412,11 @@
   "skills-dashboard-agent": {
     "first_seen": "2026-07-13",
     "authored": true
+  },
+  "skills-refresh": {
+    "first_seen": "2026-10-21",
+    "authored": true,
+    "date_basis": "birthtime"
   },
   "slides": {
     "first_seen": "2026-06-23",
