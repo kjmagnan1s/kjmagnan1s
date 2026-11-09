@@ -449,6 +449,11 @@
     "authored": true,
     "date_basis": "birthtime"
   },
+  "tiktok-harness": {
+    "first_seen": "2026-11-08",
+    "authored": true,
+    "date_basis": "birthtime"
+  },
   "tiktok-script": {
     "first_seen": "2026-07-27",
     "authored": true
