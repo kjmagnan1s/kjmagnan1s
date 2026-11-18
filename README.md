@@ -60,6 +60,7 @@ The last ~9 weeks, pulled straight from local Claude Code logs and GitHub. I del
 - **[AI Recess](https://joinairecess.com)**: community for AI builders, co-founded with two fellow creators.
 - **[AIppliance Manager](https://aippliancemanager.com)**: AI-assisted home appliance manager. Web plus native iOS (SwiftUI).
 - **[karnak](https://github.com/kjmagnan1s/karnak)**: Jev picks Claude Code's reasoning effort before every step. Low for routine, high when recovering.
+- **[reviewing-scripts](https://github.com/kjmagnan1s/reviewing-scripts)**: Review video scripts in the browser and send line-by-line notes to your coding agent. An agent skill and Claude Code plugin; scripts stay as markdown on your computer.
 
 ---
 
