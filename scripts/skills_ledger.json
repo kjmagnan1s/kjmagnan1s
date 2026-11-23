@@ -98,6 +98,11 @@
     "authored": false,
     "date_basis": "birthtime"
   },
+  "desktop-app-kit": {
+    "first_seen": "2026-11-17",
+    "authored": true,
+    "date_basis": "birthtime"
+  },
   "diagnosing-experiment-results": {
     "first_seen": "2026-08-28",
     "authored": false,
@@ -280,6 +285,11 @@
   "instrument-product-analytics": {
     "first_seen": "2026-09-04",
     "authored": false,
+    "date_basis": "birthtime"
+  },
+  "integration-javascript-web": {
+    "first_seen": "2026-11-18",
+    "authored": true,
     "date_basis": "birthtime"
   },
   "integration-javascript_web": {
